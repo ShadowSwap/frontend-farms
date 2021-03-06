@@ -1,2 +1,2 @@
-# gemz-frontend-farms
-Gemz Finance Frontend Farms
+# shadow-frontend-farms
+ShadowSwap Defi Frontend Farms
