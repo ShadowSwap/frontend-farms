@@ -1,5 +1,5 @@
 {
-  "name": "shadow-frontend",
+  "name": "goose-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,12 @@
     "eject": "react-scripts eject",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "browserslist": {
     "production": [
@@ -27,7 +33,7 @@
     "@binance-chain/bsc-use-wallet": "^0.8.1",
     "@crowdin/crowdin-api-client": "^1.10.1",
     "@ethersproject/abi": "^5.0.7",
-    "@pancakeswap-libs/uikit": "VikingDefi/viking-uikit",
+    "@pancakeswap-libs/uikit": "goosedefi/goose-uikit",
     "@reduxjs/toolkit": "^1.5.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -56,7 +62,7 @@
     "@commitlint/config-conventional": "^11.0.0",
     "@pancakeswap-libs/eslint-config-pancake": "1.0.0",
     "@types/jest": "^26.0.19",
-    "eslint": "^7.20.0",
+    "eslint": "^7.16.0",
     "husky": "^4.3.0",
     "prettier": "^2.1.2",
     "source-map-explorer": "^2.5.1"
