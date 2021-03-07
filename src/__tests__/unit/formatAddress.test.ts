@@ -7,6 +7,7 @@ it.each([
   ['bc1qhyv7a33zq57nld3hpunk25hkfxfey3rpjxctcn', 'bc1qhy...jxctcn'],
   ['bc1qh4hluzu3d3egwgwdk03xy8xrszd4q7vehttfww', 'bc1qh4...httfww'],
   ['0x3249d704a6a80731d990857E54D8222916B1C161', '0x3249...B1C161'],
+  
 ])('format %s', (address, expected) => {
   expect(formatAddress(address)).toEqual(expected)
 })
