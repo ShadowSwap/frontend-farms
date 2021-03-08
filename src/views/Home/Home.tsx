@@ -23,8 +23,8 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/egg/3.svg'), url('/images/egg/3b.svg');
-    background-position: left center, right center;
+    background-image: url('/images/egg/3.png');
+    background-position: center;
     height: 165px;
     padding-top: 0;
   }
@@ -60,9 +60,9 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'ShadowSwap DeFi')}
+          {TranslateString(576, ' ')}
         </Heading>
-        <Text>{TranslateString(578, 'The only yield farm on Binance Smart Chain.')}</Text>
+        <Text>{TranslateString(578, ' ')}</Text>
       </Hero>
       <div>
         <Cards>
