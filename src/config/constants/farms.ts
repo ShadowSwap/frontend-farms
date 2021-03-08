@@ -123,7 +123,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'USDT',
     lpAddresses: {
       97: '',
-      56: '0x55d398326f99059fF775485246999027B3197955', // BNB-BUSD LP
+      56: '0xc15fa3e22c912a276550f3e5fe3b0deb87b55acd', // BNB-BUSD LP
     },
     tokenSymbol: 'USDT',
     tokenAddresses: {
