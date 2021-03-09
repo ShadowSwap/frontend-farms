@@ -6,7 +6,7 @@ const farms: FarmConfig[] = [
     pid: 0,
     risk: 5,
     isTokenOnly: false,
-    lpSymbol: 'SHADE-BUSD LP',
+    lpSymbol: 'BUSD-SHADE LP',
     lpAddresses: {
       97: '',
       56: '0x3aB56B87F1888D427f8caDE22B60FcA47AaAB623',
@@ -23,7 +23,7 @@ const farms: FarmConfig[] = [
     pid: 1,
     risk: 5,
     isTokenOnly: false,
-    lpSymbol: 'SHADE-BNB LP',
+    lpSymbol: 'BNB-SHADE LP',
     lpAddresses: {
       97: '',
       56: '0xF6046d208B52d2497D22896430711a2d6D40c75c',
